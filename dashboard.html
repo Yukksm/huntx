@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="dashboard.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <div class="profile">
+        <img src="profile.jpeg" alt="Profile Picture">
+        <h2 id="user-name"></h2>
+        <p>Freelancer <br>Web Developer, proficient in HTML5, CSS, JavaScript</p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="intro.html"><i class='bx bx-home'></i> Home</a></li>
+          <li><a href="#"><i class='bx bx-network-chart'></i> My Network</a></li>
+          <li><a href="#"><i class='bx bx-briefcase'></i> Jobs</a></li>
+          <li><a href="login.html"><i class='bx bx-log-out'></i> Log Out</a></li>
+          <li><a href="#"><i class='bx bx-bell'></i> Notifications</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main class="feed">
+      <div class="post">
+        <div class="post-header">
+          <img src="profile.jpeg" alt="Profile Picture">
+          <h3 id="user-name-post"></h3>
+          <p>1h ago</p>
+        </div>
+        <div class="post-body">
+          <p>Excited to share my latest project!</p>
+        </div>
+        <div class="post-footer">
+          <button><i class='bx bx-like'></i> Like</button>
+          <button><i class='bx bx-comment'></i> Comment</button>
+          <button><i class='bx bx-share'></i> Share</button>
+        </div>
+      </div>
+      <!-- Add more posts as needed -->
+    </main>
+
+    <aside class="right-sidebar">
+      <div class="suggestions">
+        <h3>People You May Know</h3>
+        <div class="suggestion">
+          <img src="profile2.jpeg" alt="Profile Picture">
+          <div>
+            <h4>Aradhana Nayak</h4>
+            <p>Data Scientist</p>
+            <button>Connect</button>
+          </div>
+        </div>
+        <!-- Add more suggestions as needed -->
+      </div>
+    </aside>
+  </div>
+  <script src="dashboard.js"></script>
+</body>
+</html>
