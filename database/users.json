@@ -1,0 +1,74 @@
+[
+    {
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john.doe@example.com",
+      "username": "john_doe",
+      "password": "ieugfbek",  
+      "profile": "student",
+      "additionalInfo": {
+        "university": "Melbourne University",
+        "skills": ["Python", "Data Analysis", "Machine Learning"],
+        "internshipExperience": ["Data Science Intern at XYZ Corp"],
+        "papersPublished": ["Paper on Machine Learning Algorithms"]
+      }
+    },
+    {
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "email": "jane.smith@example.com",
+      "username": "jane_smith",
+      "password": "ieusfgk",  
+      "profile": "freelancer",
+      "additionalInfo": {
+        "niche": "Web Development",
+        "skills": ["HTML", "CSS", "JavaScript", "React"],
+        "contactDetails": "jane.freelance@example.com",
+        "whyBest": "I have over 5 years of experience in web development and have worked on numerous high-profile projects."
+      }
+    },
+    {
+      "firstName": "Alice",
+      "lastName": "Johnson",
+      "email": "alice.johnson@example.com",
+      "username": "alice_johnson",
+      "password": "hfvojfeh",  
+      "profile": "employee",
+      "additionalInfo": {
+        "currentJobTitle": "Software Engineer",
+        "company": "ABC Technologies",
+        "experience": "3 years",
+        "lookingForJobPost": "Senior Software Engineer",
+        "skills": ["Java", "Spring Boot", "Microservices"]
+      }
+    },
+    {
+      "firstName": "Bob",
+      "lastName": "Brown",
+      "email": "bob.brown@example.com",
+      "username": "bob_brown",
+      "password": "fcejg",  
+      "profile": "company",
+      "additionalInfo": {
+        "companyName": "Tech Innovators Inc.",
+        "franchises": ["AI Solutions", "Cloud Computing"],
+        "jobPostsAvailable": ["AI Developer", "Cloud Engineer"],
+        "contactDetails": "contact@techinnovators.com"
+      }
+    },
+    {
+      "firstName": "Charlie",
+      "lastName": "Davis",
+      "email": "charlie.davis@example.com",
+      "username": "charlie_davis",
+      "password": "bdsfiu",  
+      "profile": "startup",
+      "additionalInfo": {
+        "companyName": "Startup XYZ",
+        "franchises": ["Mobile App Development", "Fintech"],
+        "jobPostsAvailable": ["Mobile Developer", "Backend Developer"],
+        "contactDetails": "info@startupxyz.com"
+      }
+    }
+  ]
+  
